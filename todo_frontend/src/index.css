@@ -1,0 +1,23 @@
+body {
+  padding: 24px;
+}
+
+.todo-list {
+  margin-top: 5px;
+}
+
+.todo-item {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 5px;
+}
+
+.todo-text {
+  flex-grow: 5;
+  overflow: scroll;
+  min-width: 0;
+}
+
+.clear-btn {
+  margin-top: 10px;
+}
