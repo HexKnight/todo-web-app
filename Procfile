@@ -1,1 +1,1 @@
-web: todo_api.wsgi --log-file -
+web: gunicorn todo_api.wsgi --log-file -
